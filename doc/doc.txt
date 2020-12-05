@@ -1,0 +1,9 @@
+FIND
+  size text: use scale calculator
+  color: text and background
+  font
+  
+Remove scroll bar: everything should fit in the screen
+Center vertically
+add css file
+Choose library for animation

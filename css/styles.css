@@ -1,0 +1,55 @@
+body {
+ background-color:rgb(232,247,197);
+}
+h2#my_name{
+ font-family:Helvetica,sans-serif;
+ font-weight:400;
+ color:rgb(97,32,43);
+}
+h2#my_name_1{
+	margin-top:-25px;
+	font-family:Helvetica,sans-serif;
+	font-weight:400;
+	color:rgb(8,134,143);
+}
+hr{
+ margin-right:-7px;
+ margin-left:-7px;
+}
+div#main{
+  padding-top:50px;
+  height:70vh;
+  width:100%;
+}
+div#main > h1,h4
+{
+  text-align:center;
+}
+
+ul#menu
+{
+  list-style-type:none;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top:40px;
+  padding:0;
+  overflow:hidden;
+  background-color:#dddddd;
+}
+
+ul#menu > li {
+	float: left;
+}
+
+ul#menu > li a{
+	display:block;
+	padding:8px;
+}
+
+div#footer{
+ position:fixed;
+ left:0;
+ bottom:0;
+ width:100%;
+ text-align:center;
+}
