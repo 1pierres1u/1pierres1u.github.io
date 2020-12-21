@@ -1,10 +1,8 @@
 let animation = anime({
-   targets:'div#animated_image',
-   translateX:100,
-   borderRadius:50,
-   duration:2000,
+   targets:'div#home_content > img',
+   rotateX:'360',
    easing:'linear',
-   direction: 'alternate'
+   loop:true,
 });
 
 if(document.title=="Home")
