@@ -1,5 +1,6 @@
 body
-{ background-color:rgb(232,247,197);
+{ background-color:#FFFFDC;
+  /*background-color:rgb(232,247,197);*/
 }
 /* HEADER */
 div#header
@@ -10,7 +11,7 @@ div#header > h2
 {
  font-family:Helvetica,sans-serif;
  font-weight:lighter;
- color:rgb(97,32,43);
+ color:#001919;
 }
 h2#my_name
 {letter-spacing: 2px;
@@ -34,7 +35,7 @@ div#home_wrapper{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:10px;
-  grid-auto-rows: 200px;
+  grid-auto-rows: 220px;
   grid-template-areas:
   ". a a ."
   ". a a .";
@@ -51,12 +52,73 @@ div#home_content > h1
  font-family:Helvetica,sans-serif;
  font-weight:bold;
  font-size:250%;
+ color:#004C4C;
 }
 div#home_content > img 
 { display: block;
   margin:auto;
+  margin-top:2px;
 }
 /***************/
+
+
+/* ABOUT */
+div#about_wrapper{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  grid-auto-rows: 220px;
+  grid-template-areas:
+  ". a a ."
+  ". a a .";
+}
+div#about_content
+{
+ grid-area:a;
+ align-self: center;
+ justify-self:center;
+}
+div.text_content
+{ margin-bottom: 20px;
+}
+div.text_content >  h3
+{ color:#001919;
+  font-family:Helvetica,sans-serif;
+  font-weight: lighter;
+}
+div#About > p 
+{ color:#001919;
+  font-family:Helvetica,sans-serif;
+}
+div#About > a
+{ text-decoration:none;
+}
+div#About >  div.text_content
+{ border-bottom:1px solid red;
+  margin:auto;
+  margin-top: 60px;
+}
+/**********/
+
+/* CONTACT */
+div#contact_wrapper{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  grid-auto-rows: 220px;
+  grid-template-areas:
+  ". a a ."
+  ". a a .";
+}
+div#contact_content
+{
+ grid-area:a;
+ align-self: center;
+ justify-self:center;
+}
+/**************/
+
+
 
 
 /* FOOTER */
@@ -84,13 +146,14 @@ ul#menu > li > a
 { padding: 5px;
   text-decoration: none;
   font-family:Helvetica,sans-serif;
-  font-weight:bold;
+  color:#001919;
 }
 ul#menu > li > a:visited
 { color:blue;
+  color:#001919;
 }
 ul#menu > li > a:hover
-{ color:red;
+{ font-weight:bold;
 }
 
 /***************/
@@ -112,6 +175,9 @@ div.project > div.project_description
   background-color:red;
   top:0;
   left:0;
+}
+div.project > div.project_description > p
+{ color:white;
 }
 div.project > div.project_image > img
 {max-width:100%;
