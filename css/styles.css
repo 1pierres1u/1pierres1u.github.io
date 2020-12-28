@@ -1,6 +1,20 @@
+:root
+{
+ --bg-cl:#FFFFDC; /* background color */
+ --mn-lk:#001919; /* menu a */
+ --mn-lk-vs:#001919; /* menu a visited*/
+ --hd-nm:#001919; /* header name */
+ --id-ct:#004C4C; /* index page content */
+ --ab-tt:#001919; /* about page title */
+ --ab-ct:#001919; /* about page paragraph */
+ --pd-bg:red; /* project description background */
+ --pd-tt:white; /* project description text */
+}
+
+
+
 body
-{ background-color:#FFFFDC;
-  /*background-color:rgb(232,247,197);*/
+{ background-color:var(--bg-cl);
 }
 /* HEADER */
 div#header
@@ -11,7 +25,7 @@ div#header > h2
 {
  font-family:Helvetica,sans-serif;
  font-weight:lighter;
- color:#001919;
+ color:var(--hd-nm);
 }
 h2#my_name
 {letter-spacing: 2px;
@@ -52,7 +66,7 @@ div#home_content > h1
  font-family:Helvetica,sans-serif;
  font-weight:bold;
  font-size:250%;
- color:#004C4C;
+ color:var(--id-ct);
 }
 div#home_content > img 
 { display: block;
@@ -82,12 +96,12 @@ div.text_content
 { margin-bottom: 20px;
 }
 div.text_content >  h3
-{ color:#001919;
+{ color:var(--ab-tt);
   font-family:Helvetica,sans-serif;
   font-weight: lighter;
 }
 div#About > p 
-{ color:#001919;
+{ color:var(--ab-ct);
   font-family:Helvetica,sans-serif;
 }
 div#About > a
@@ -146,11 +160,10 @@ ul#menu > li > a
 { padding: 5px;
   text-decoration: none;
   font-family:Helvetica,sans-serif;
-  color:#001919;
+  color:var(--mn-lk);
 }
 ul#menu > li > a:visited
-{ color:blue;
-  color:#001919;
+{ color:var(--mn-lk-vs);
 }
 ul#menu > li > a:hover
 { font-weight:bold;
@@ -172,12 +185,12 @@ div.project > div.project_image
 }
 div.project > div.project_description
 {  position:absolute;
-  background-color:red;
+  background-color:var(--pd-bg);
   top:0;
   left:0;
 }
 div.project > div.project_description > p
-{ color:white;
+{ color:var(--pd-tt);
 }
 div.project > div.project_image > img
 {max-width:100%;
