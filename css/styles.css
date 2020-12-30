@@ -3,6 +3,7 @@
  --bg-cl:#FFFFDC; /* background color */
  --mn-lk:#001919; /* menu a */
  --mn-lk-vs:#001919; /* menu a visited*/
+ --mn-bg: white; /* menu background*/
  --hd-nm:#001919; /* header name */
  --id-ct:#004C4C; /* index page content */
  --ab-tt:#001919; /* about page title */
@@ -16,8 +17,9 @@
 
 /*****************/
 
-img, p
+img, p, ul,li
 { margin:0;
+  padding:0;
 }
 
 body
@@ -143,7 +145,11 @@ div#footer
 { width:100%;
   position:fixed;
   left:0;
-  bottom:10px;
+  /*bottom:10px;*/
+  bottom:0;
+  height: 30px;
+  padding-top:10px;
+  background-color:var(--mn-bg);
 }
 div#div_menu
 { display:table;
