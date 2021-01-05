@@ -29,8 +29,12 @@ let animation_5 = anime({
    loop:true,
 });
 
-var bottomLine = "2px solid red" ;
 
+
+/* Add a bar below a menu link corresponding 
+ * to the page displayed.
+ */
+var bottomLine = "2px solid red" ;
 if(document.title=="Home")
 {
   $("ul li ").eq(0).css("padding","3px");
@@ -51,5 +55,4 @@ else if(document.title=="Contact")
   $("ul li ").eq(3).css("padding","3px");
   $("ul li ").eq(3).css("border-bottom",bottomLine);
 }
-
 

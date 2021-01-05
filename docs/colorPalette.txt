@@ -1,0 +1,32 @@
+:root
+{
+ --bg-cl:#FFFFDC; /* background color */
+ --mn-lk:#001919; /* menu a */
+ --mn-lk-vs:#001919; /* menu a visited*/
+ --mn-bg: white; /* menu background*/
+ --hd-nm:#001919; /* header name */
+ --id-ct:#004C4C; /* index page content */
+ --ab-tt:#001919; /* about page title */
+ --ab-ct:#001919; /* about page paragraph */
+ --pd-bg:red; /* project description background */
+ --pd-tt:white; /* project description text */
+ --bb-im:red;  /*border-bottom of images */
+}
+
+
+:root
+{
+ --bg-cl:red; /* background color */
+ --mn-lk:red; /* menu a */
+ --mn-lk-vs:white; /* menu a visited*/
+ --mn-bg: white; /* menu background*/
+ --hd-nm:white; /* header name */
+ --id-ct:#004C4C; /* index page content */
+ --ab-tt:white; /* about page title */
+ --ab-ct:white; /* about page paragraph */
+ --pd-bg:white; /* project description background */
+ --pd-tt:red; /* project description text */
+ --bb-im:white;  /*border-bottom of images */
+}
+
+
