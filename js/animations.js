@@ -1,29 +1,29 @@
 let animation_1 = anime({
-   targets:'div#home_content > img#bar_1',
+   targets:'div#bar_1',
    rotateY:'34',
    easing:'linear',
    loop:true,
 });
 let animation_2 = anime({
-   targets:'div#home_content > img#bar_2',
+   targets:'div#bar_2',
    rotateY:'55',
    easing:'linear',
    loop:true,
 });
 let animation_3 = anime({
-   targets:'div#home_content > img#bar_3',
+   targets:'div#bar_3',
    rotateY:'89',
    easing:'linear',
    loop:true,
 });
 let animation_4 = anime({
-   targets:'div#home_content > img#bar_4',
+   targets:'div#bar_4',
    rotateY:'144',
    easing:'linear',
    loop:true,
 });
 let animation_5 = anime({
-   targets:'div#home_content > img#bar_5',
+   targets:'div#bar_5',
    rotateY:'233',
    easing:'linear',
    loop:true,
