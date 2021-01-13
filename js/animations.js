@@ -1,34 +1,15 @@
-let animation_1 = anime({
-   targets:'div#bar_1',
-   rotateY:'34',
+anime({
+   targets:'div.bar',
+   rotateY:[{value:'94',
    easing:'linear',
-   loop:true,
+   },
+   {value:'0',
+    easing:'linear',
+   },
+ ],
+ delay:function(el,i,l){return i*90},
+ loop:true
 });
-let animation_2 = anime({
-   targets:'div#bar_2',
-   rotateY:'55',
-   easing:'linear',
-   loop:true,
-});
-let animation_3 = anime({
-   targets:'div#bar_3',
-   rotateY:'89',
-   easing:'linear',
-   loop:true,
-});
-let animation_4 = anime({
-   targets:'div#bar_4',
-   rotateY:'144',
-   easing:'linear',
-   loop:true,
-});
-let animation_5 = anime({
-   targets:'div#bar_5',
-   rotateY:'233',
-   easing:'linear',
-   loop:true,
-});
-
 
 
 /* Add a bar below a menu link corresponding 

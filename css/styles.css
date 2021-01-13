@@ -190,6 +190,8 @@ div.project
 { position:relative;
   justify-self:center;
   margin-bottom: 60px;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 div.project > div.project_image{ 
